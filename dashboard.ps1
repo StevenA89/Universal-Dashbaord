@@ -23,7 +23,7 @@ $Page3 = New-UDPage -Name "Links" -Icon link -Content {
 $Navigation = New-UDSideNav -Content {
     New-UDSideNavItem -Text "Home" -PageName "Home" -Icon home
     New-UDSideNavItem -Text "About" -PageName "About" -Icon question
-	New-UDSideNavItem -Text "About" -PageName "Links" -Icon link
+	New-UDSideNavItem -Text "Links" -PageName "Links" -Icon link
     New-UDSideNavItem -Text "Google" -Url 'https://www.google.com' -Icon google
 	New-UDSideNavItem -Text "Nested Beta" -Children {
 	    New-UDSideNavItem -Text "Home" -PageName "Home" -Icon home
